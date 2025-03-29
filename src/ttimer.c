@@ -43,7 +43,7 @@ int main(int argc, char *argv[]) {
 	
 	for (int i = 1; i < argc; i++) {
 		if (strcmp(argv[i], "--version") == 0) {
-			printf("TTimer (Terminal Timer) 1.0\n");
+			printf("TTimer (Terminal Timer) 1.1\n");
 			free(state);
 			return 0;
 		} else if (strcmp(argv[i], "--help") == 0) {
