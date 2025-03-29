@@ -14,3 +14,5 @@
   make
   And Finally to install the program on you system run
   sudo make install
+---USAGE---
+Run 'ttimer' in your terminal to run the Terminal Timer. For help run 'ttimer --help'.
