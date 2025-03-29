@@ -33,7 +33,7 @@ int kbhit() {
 }
 
 void displayTimer(uint64_t time) {
-	printf("\033[2K\rMili seconds: %llu, Seconds: %llu, Minutes: %llu, Hours, %llu",
+	printf("\033[2K\rMili seconds: %lu, Seconds: %lu, Minutes: %lu, Hours, %lu",
 		time % 1000, (time / 1000) % 60, time / 60000, time / 3600000);
 	fflush(stdout);
 }
